@@ -1,4 +1,4 @@
-/* #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,21 +42,22 @@
 
 .read-the-docs {
   color: #888;
-} */
- .my-button {
-   display: inline-block;
-   padding: 10px 20px;
-   font-size: 16px;
-   text-align: center;
-   text-decoration: none;
-   border: 2px solid #3498db;
-   color: #3498db;
-   border-radius: 5px;
-   transition: background-color 0.3s, color 0.3s;
- }
+}
 
- /* Hover effect */
- .my-button:hover {
-   background-color: #3498db;
-   color: #fff;
- }
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #3498db;
+  color: #3498db;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.my-button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
